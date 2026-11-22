@@ -1,0 +1,765 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Wealthsimple Referral Code</title>
+  <meta name="description" content="Sign up at https://www.wealthsimple.com/invite/SU3HKG and get a $25 referral reward.">
+
+  <meta name="robots" content="index, follow">
+
+  <meta name="theme-color" content="#FFFFFF">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Wealthsimple Referral Code">
+  <meta property="og:description" content="Sign up at https://www.wealthsimple.com/invite/SU3HKG and get a $25 referral reward.">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Wealthsimple Referral Code">
+  <meta name="twitter:description" content="Sign up at https://www.wealthsimple.com/invite/SU3HKG and get a $25 referral reward.">
+
+  <style>
+    :root {
+      /* Brand colours */
+      --gold: #EECC7D;
+      --gold-dark: #DCAE4A;
+      --gold-light: #F5EBD3;
+      --black: #000000;
+      --dark-gray: #333333;
+      --white: #FFFFFF;
+
+      /* Background colours */
+      --page-bg: #FFFFFF;
+      --panel-bg: #FFFFFF;
+      --steps-bg: #f7f7f7;
+      --step-bg: #FFFFFF;
+
+      /* Text colours */
+      --text: #222222;
+      --muted: #666666;
+      --heading: #555555;
+      --wealthsimple: #000000;
+
+      /* Border and shadow colours */
+      --border: #E9E5DC;
+      --gold-border: #E6D7B5;
+      --panel-shadow: rgba(0, 0, 0, 0.07);
+      --button-shadow: rgba(173, 135, 53, 0.22);
+
+      /* Interactive colours */
+      --link: #BC8A23;
+      --link-hover: #9b7220;
+      --button-text: #000000;
+      --focus: #C9A44C;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      background: var(--page-bg);
+      scroll-behavior: smooth;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: var(--page-bg);
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .hero {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 46px 28px 52px;
+      background: var(--page-bg);
+    }
+
+    .hero-inner {
+      width: 100%;
+      max-width: 1160px;
+      margin: auto;
+    }
+
+    .brand-logo {
+      display: block;
+      width: 72px;
+      height: 72px;
+      object-fit: contain;
+      margin: 0 auto 24px;
+    }
+
+    .hero-heading {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .hero-heading h1 {
+      color: var(--heading);
+      font-size: clamp(2.4rem, 5vw, 3.7rem);
+      line-height: 1.12;
+      letter-spacing: -1.8px;
+      font-weight: 750;
+    }
+
+    .hero-heading h1 span {
+      color: var(--wealthsimple);
+    }
+
+    .alternative-link {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    .alternative-link a {
+      color: var(--link);
+      text-decoration: underline;
+      overflow-wrap: anywhere;
+    }
+
+    .alternative-link a:hover {
+      color: var(--link-hover);
+    }
+
+    .offer-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 26px;
+      align-items: stretch;
+    }
+
+    .offer-panel,
+    .steps-panel {
+      min-width: 0;
+      border-radius: 20px;
+      padding: 38px;
+    }
+
+    .offer-panel {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: var(--panel-bg);
+      color: var(--black);
+      border: 1px solid var(--border);
+      box-shadow: 0 16px 40px var(--panel-shadow);
+    }
+
+    .offer-main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 24px;
+      padding: 8px 0 26px;
+    }
+
+    .offer-highlight {
+      padding: 32px 24px 34px;
+      text-align: center;
+      border: 1px solid var(--gold-border);
+      border-radius: 15px;
+      background: var(--white);
+    }
+
+    .offer-label {
+      color: var(--muted);
+      font-size: 0.95rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.6px;
+    }
+
+    .offer-amount {
+      color: var(--gold-dark);
+      font-size: clamp(4rem, 6vw, 5.1rem);
+      font-weight: 800;
+      line-height: 1.1;
+      letter-spacing: -2px;
+      margin: 14px 0;
+    }
+
+    .offer-description {
+      color: var(--black);
+      font-size: 1.1rem;
+    }
+
+    .cta {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      width: 100%;
+      padding: 19px 22px;
+      border-radius: 12px;
+      background: var(--gold);
+      color: var(--button-text);
+      font-size: 1.08rem;
+      font-weight: bold;
+      transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 5px 14px var(--button-shadow);
+    }
+
+    .cta:hover {
+      background: var(--gold-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px var(--button-shadow);
+    }
+
+    .cta:focus-visible {
+      outline: 3px solid var(--focus);
+      outline-offset: 4px;
+    }
+
+    .cta-icon {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+    }
+
+    .referral-disclosure {
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.82rem;
+      line-height: 1.6;
+    }
+
+    .steps-panel {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: var(--steps-bg);
+      color: var(--black);
+      border: 1px solid var(--border);
+    }
+
+    .steps-panel h2 {
+      margin-bottom: 22px;
+      font-size: 1.6rem;
+      line-height: 1.25;
+      color: var(--heading);
+    }
+
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .step {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 15px 16px;
+      background: var(--step-bg);
+      border: 1px solid var(--border);
+      border-radius: 13px;
+    }
+
+    .step-number,
+    .step-icon {
+      flex-shrink: 0;
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .step-number {
+      border-radius: 50%;
+      background: var(--gold);
+      color: var(--black);
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    .step-icon {
+      font-size: 1.5rem;
+    }
+
+    .step-content {
+      min-width: 0;
+      padding-top: 2px;
+    }
+
+    .step strong {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 1.02rem;
+      line-height: 1.4;
+      color: var(--black);
+    }
+
+    .step p {
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    footer {
+      flex-shrink: 0;
+      padding: 17px 22px 21px;
+      background: var(--page-bg);
+      color: var(--muted);
+      text-align: center;
+      font-size: 0.8rem;
+    }
+
+    footer p {
+      max-width: 850px;
+      margin: 4px auto;
+    }
+
+    footer a {
+      color: var(--link);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    footer a:hover {
+      color: var(--link-hover);
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        padding: 36px 20px 42px;
+      }
+
+      .offer-layout {
+        grid-template-columns: 1fr;
+        max-width: 620px;
+        margin: auto;
+        gap: 20px;
+      }
+
+      .offer-panel,
+      .steps-panel {
+        padding: 30px;
+      }
+
+      .offer-main {
+        padding: 0 0 22px;
+      }
+
+      .referral-disclosure {
+        padding-top: 15px;
+      }
+
+      .hero-heading {
+        margin-bottom: 32px;
+      }
+    }
+
+    @media (max-width: 550px) {
+      .hero {
+        padding: 26px 15px 34px;
+      }
+
+      .brand-logo {
+        width: 54px;
+        height: 54px;
+        margin-bottom: 17px;
+      }
+
+      .hero-heading {
+        margin-bottom: 25px;
+      }
+
+      .hero-heading h1 {
+        font-size: clamp(2rem, 8vw, 2.6rem);
+        letter-spacing: -1px;
+      }
+
+      .offer-panel,
+      .steps-panel {
+        padding: 23px 18px;
+        border-radius: 16px;
+      }
+
+      .offer-main {
+        gap: 17px;
+        padding-bottom: 20px;
+      }
+
+      .offer-highlight {
+        padding: 25px 16px 26px;
+      }
+
+      .offer-label {
+        font-size: 0.8rem;
+      }
+
+      .offer-amount {
+        font-size: 3.8rem;
+        margin: 10px 0;
+      }
+
+      .offer-description {
+        font-size: 0.95rem;
+      }
+
+      .cta {
+        padding: 15px;
+        font-size: 0.96rem;
+      }
+
+      .referral-disclosure {
+        padding-top: 13px;
+        font-size: 0.75rem;
+      }
+
+      .steps-panel h2 {
+        font-size: 1.35rem;
+        margin-bottom: 16px;
+      }
+
+      .steps {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+
+      .step {
+        grid-column: 1;
+        padding: 13px;
+        gap: 12px;
+      }
+
+      .step-number,
+      .step-icon {
+        width: 31px;
+        height: 31px;
+      }
+
+      .step-number {
+        font-size: 0.9rem;
+      }
+
+      .step-icon {
+        font-size: 1.25rem;
+      }
+
+      .step strong {
+        font-size: 0.92rem;
+      }
+
+      .step p {
+        font-size: 0.82rem;
+      }
+
+      footer {
+        padding: 13px 15px 16px;
+        font-size: 0.71rem;
+      }
+    }
+
+    @media (min-width: 901px) and (max-height: 850px) {
+      .hero {
+        padding-top: 25px;
+        padding-bottom: 30px;
+      }
+
+      .brand-logo {
+        width: 54px;
+        height: 54px;
+        margin-bottom: 14px;
+      }
+
+      .hero-heading {
+        margin-bottom: 28px;
+      }
+
+      .hero-heading h1 {
+        font-size: 2.7rem;
+      }
+
+      .offer-panel,
+      .steps-panel {
+        padding: 28px;
+      }
+
+      .offer-main {
+        gap: 17px;
+        padding-bottom: 18px;
+      }
+
+      .offer-highlight {
+        padding: 23px;
+      }
+
+      .offer-amount {
+        font-size: 3.7rem;
+        margin: 9px 0;
+      }
+
+      .steps-panel h2 {
+        margin-bottom: 15px;
+      }
+
+      .steps {
+        gap: 9px;
+      }
+
+      .step {
+        padding: 12px 13px;
+        gap: 11px;
+      }
+
+      .step strong {
+        font-size: 0.94rem;
+      }
+
+      .step p {
+        font-size: 0.82rem;
+      }
+
+      footer {
+        padding: 9px 22px 11px;
+      }
+    }
+
+    @media (min-width: 901px) and (max-height: 680px) {
+      .hero {
+        padding-top: 14px;
+        padding-bottom: 18px;
+      }
+
+      .brand-logo {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 9px;
+      }
+
+      .hero-heading {
+        margin-bottom: 16px;
+      }
+
+      .hero-heading h1 {
+        font-size: 2.1rem;
+      }
+
+      .offer-panel,
+      .steps-panel {
+        padding: 17px 20px;
+      }
+
+      .offer-main {
+        gap: 10px;
+        padding-bottom: 12px;
+      }
+
+      .offer-highlight {
+        padding: 14px;
+      }
+
+      .offer-amount {
+        font-size: 2.9rem;
+        margin: 5px 0;
+      }
+
+      .offer-description {
+        font-size: 0.88rem;
+      }
+
+      .cta {
+        padding: 10px 14px;
+      }
+
+      .steps-panel h2 {
+        font-size: 1.15rem;
+        margin-bottom: 8px;
+      }
+
+      .steps {
+        gap: 6px;
+      }
+
+      .step {
+        padding: 8px 9px;
+        gap: 9px;
+      }
+
+      .step-number,
+      .step-icon {
+        width: 27px;
+        height: 27px;
+      }
+
+      .step strong {
+        font-size: 0.83rem;
+      }
+
+      .step p {
+        font-size: 0.72rem;
+      }
+
+      .referral-disclosure {
+        padding-top: 8px;
+        font-size: 0.7rem;
+      }
+
+      footer {
+        padding: 5px 15px 7px;
+        font-size: 0.67rem;
+      }
+    }
+  </style>
+</head>
+
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P7PRBX6N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<body>
+  <section class="hero">
+    <div class="hero-inner">
+
+      <div class="hero-heading">
+        <h1>Get started with <span>Wealthsimple.</span></h1>
+      </div>
+
+      <div class="offer-layout">
+
+        <div class="offer-panel">
+
+          <div class="offer-main">
+            <div class="offer-highlight">
+              <h2 class="offer-label">Wealthsimple referral offer</h2>
+              <div class="offer-amount">$25</div>
+              <p class="offer-description">After depositing at least $100 within 30 days.</p>
+            </div>
+
+            <a
+              id="referralLink"
+              class="cta"
+              href="https://www.wealthsimple.com/invite/SU3HKG"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>Sign up for Wealthsimple</span>
+
+              <svg
+                class="cta-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M14 3h7v7"></path>
+                <path d="M10 14 21 3"></path>
+                <path d="M21 14v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h6"></path>
+              </svg>
+            </a>
+
+            <p class="alternative-link">
+                Or go to:
+                <a
+                  href="https://www.wealthsimple.com/invite/SU3HKG"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://www.wealthsimple.com/invite/SU3HKG
+                </a>
+            </p>
+          </div>
+
+          <p class="referral-disclosure">
+            Referral Disclaimer: I may also receive a $25 referral reward if you sign up using
+            this link and complete the requirements.
+          </p>
+
+        </div>
+
+        <div class="steps-panel">
+
+          <h2>How to qualify</h2>
+
+          <div class="steps">
+
+            <div class="step">
+              <div class="step-number">1</div>
+              <div class="step-content">
+                <strong>Sign up using the link</strong>
+                <p>Click the referral link and create your Wealthsimple account.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step-number">2</div>
+              <div class="step-content">
+                <strong>Open a new account</strong>
+                <p>Complete the process to open a new Wealthsimple account.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step-number">3</div>
+              <div class="step-content">
+                <strong>Deposit at least $100</strong>
+                <p>
+                  Deposit at least $100 into your new Wealthsimple account
+                  within 30 days of opening it.
+                </p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step-icon" aria-hidden="true">🎉</div>
+              <div class="step-content">
+                <strong>Receive your reward</strong>
+                <p>You will receive $25 once the funds arrive.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      This is an independently operated referral page.
+      It is not an official Wealthsimple website and is not affiliated
+      with or endorsed by Wealthsimple.
+    </p>
+
+    <p>
+      Referral details are subject to
+      <a
+        href="https://www.wealthsimple.com/en-ca/referrals"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Wealthsimple's official referral terms</a>.
+    </p>
+  </footer>
+</body>
+</html>

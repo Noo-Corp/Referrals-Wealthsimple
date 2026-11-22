@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wealthsimplereferralcodes.ca/sitemap.xml
